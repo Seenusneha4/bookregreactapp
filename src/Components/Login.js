@@ -19,7 +19,7 @@ const Login = () => {
             </div>
             <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                  <label for="" className="form-label">Password</label>
-                 <input onChange={(a)=>{setpassword(a.target.value)}} type="password" name="" id="" class="form-control"></input>
+                 <input onChange={(a)=>{setpassword(a.target.value)}} type="password" name="" id="" class="form-control"/>
 
             </div>
              <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
