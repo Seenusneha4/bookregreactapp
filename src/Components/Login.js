@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import Header from './Header'
+
 
 const Login = () => {
     var [username,setusername]=useState("")
@@ -23,7 +25,9 @@ const Login = () => {
 
             </div>
              <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-               <button onClick={subdata} className="btn btn-success">Login</button>
+               <button onClick={subdata} className="btn btn-success">Login
+               
+               </button>
             </div>
             <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
               <Link to="/register">New user click here</Link>

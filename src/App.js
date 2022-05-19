@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Register from './Components/Register';
 import Header from './Components/Header';
 import Addbook from './Components/Addbook';
+import Viewbook from './Components/Viewbook';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
        <Route path="/" exact element={<Login/>}/>
        <Route path="/register" exact element={<Register/>}/>
        <Route path="/add" exact element={<Addbook/>}/>
-       <Route path="/view" exact element={<Register/>}/>
+       <Route path="/view" exact element={<Viewbook/>}/>
      </Routes>
      </BrowserRouter>
     </div>
