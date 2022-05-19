@@ -5,14 +5,18 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import Login from './Components/Login';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Register from './Components/Register';
+import Header from './Components/Header';
 
 function App() {
   return (
     <div>
+      
      <BrowserRouter>
      <Routes>
        <Route path="/" exact element={<Login/>}/>
        <Route path="/register" exact element={<Register/>}/>
+       <Route path="/add" exact element={<Register/>}/>
+       <Route path="/view" exact element={<Register/>}/>
      </Routes>
      </BrowserRouter>
     </div>
